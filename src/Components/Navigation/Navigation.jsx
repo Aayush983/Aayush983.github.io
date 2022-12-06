@@ -21,7 +21,7 @@ function Navigation({ Link, router }) {
         ))}
         <div className={Styles.Navigation__resume}>
           <a
-            href="https://drive.google.com/file/d/13aoUQmqZ45bV-jKEkphVRNkly9dAztf0/view?usp=share_link"
+            href="https://drive.google.com/file/d/1ov0AeMMFggSQdpyYvzhcfdIDP2tmjt0K/view?usp=share_link"
             target="_blank"
           >
             Resume

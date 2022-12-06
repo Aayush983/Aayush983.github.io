@@ -24,6 +24,16 @@ const projectObj = [
     github: "https://github.com/Aayush983/doting-water-1849",
     blog: "https://scintillating-clafoutis-dbade0.netlify.app/",
   },
+  {
+    img: "https://pbs.twimg.com/media/E_JZaX2VgAcfSaa.jpg",
+    title: "Expedia.co.in",
+    description:
+      "Expedia Inc. is an online travel agency owned by Expedia Group, an American online travel shopping company based in Seattle. The website and mobile app can be used to book airline tickets, hotel reservations, car rentals, cruise ships, and vacation packages",
+    tech: "Tech Stack :",
+    used: "HTML | CSS | JavaScript | Local Storage | Reuseable Components",
+    github: "https://github.com/Dhanraj4198/average-collar-3069",
+    blog: "https://allseasonhotels.vercel.app",
+  }
 ];
 
 function Projects() {
