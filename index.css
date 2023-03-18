@@ -11,7 +11,7 @@
  }
 
  #navbar {
-    border: 1px solid;
+    /* border: 1px solid red; */
     background-color: black;
     width: 100%;
     height: 64px;
@@ -27,17 +27,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border: 1px solid red; */
  }
 
  #navbar>div:first-child>h2 {
     background-color: black;
     font-style: italic;
+
  }
 
  #navbar>div:first-child>h2:first-child {
     color: red;
     background-color: black;
-    font-size: 35px;
+    font-size: 35px; 
+    /* border: 2px solid blue; */
  }
 
  #navbar>div:first-child>h2:last-child {
@@ -58,6 +61,7 @@
     color: white;
     background-color: black;
     border: 2px solid black;
+    /* border: 1px solid red; */
 
  }
 
@@ -69,12 +73,11 @@
 
  #navbar h2 {
    background-color: red;
-   color: white;
-   
+   color: white; 
  }
 
  #image {
-   
+   /* border: 2px solid blue; */
     display: grid;
     width:95%;
     margin:auto;
@@ -88,45 +91,49 @@
 #a {
  text-align: center;
  padding-bottom: 20px;
+ /* border: 2px solid blue; */
 }
 
-
 #b{
-   margin-top: 50px;
+   margin-top: 20px;
 }
 
  #about>h1:first-child {
     margin-top: 40px;
     font-size: 80px;
-
+    /* border: 2px solid red; */
+    /* margin-bottom: -20px; */
  }
 
  #about>h1:nth-child(2) {
     font-size: 60px;
-
+    margin-bottom: 0px;
+    /* border: 2px solid red; */
  }
 
  #about>h1:nth-child(3) {
     font-size: 50px;
     color: red;
+    /* border: 2px solid blue; */
  }
 
  #image img {
    display: block;
    border-radius: 30%;
    width: 80%;
- 
+   /* border: 2px solid blue; */
 }
 
 
  #myself {
     margin: auto;
     width: 70%;
-   
+    /* border: 2px solid blue; */
  }
 
  #myself p {
     font-size: 30px;
+    /* border: 2px solid blue; */
  }
 
 
@@ -141,14 +148,14 @@
     justify-content: space-between;
     gap: 20px;
     align-items: center;
-   
+    /* border: 2px solid blue; */
  }
 
  #skill>div {
     border: 5px solid black;
     border-radius: 12px;
     height: 200px;
-    
+    /* border: 2px solid blue; */
  }
 
  #skill>div:hover {
@@ -161,13 +168,100 @@
     display: block;
     width: 80%;
     margin: auto;
-    margin-top: 20%;
+    margin-top: 10%;
     border-radius: 30px;
+    /* border: 2px solid blue; */
  }
 
  #skill img:hover {
     background-color: white;
  }
+
+
+
+
+ #ayush{
+   width: 70%;
+   margin: auto;
+   margin-top: 200px;
+   border-radius: 30px;
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   /* grid-template-rows: repeat(, 1fr); */
+   justify-content: space-between;
+   gap: 20px;
+   align-items: center;
+  
+}
+
+#ayush>div {
+   border: 5px solid black;
+   border-radius: 12px;
+   height: 200px;
+   
+}
+
+#ayush>div:hover {
+   border: 2px solid orange;
+   border-radius: 30px;
+   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#ayush img {
+   display: block;
+   width: 90%;
+   margin: auto;
+   margin-top: 10%;
+   border-radius: 30px;
+   /* border: 2px solid blue; */
+}
+
+#ayush img:hover {
+   background-color: white;
+}
+
+
+
+#kumar{
+   width: 70%;
+   margin: auto;
+   margin-top: 200px;
+   margin-bottom: 200px;
+   border-radius: 30px;
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   /* grid-template-rows: repeat(3, 1fr); */
+   justify-content: space-between;
+   gap: 20px;
+   align-items: center;
+  
+}
+
+#kumar>div {
+   border: 5px solid black;
+   border-radius: 12px;
+   height: 200px;
+   
+}
+
+#kumar>div:hover {
+   border: 2px solid orange;
+   border-radius: 30px;
+   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#kumar img {
+   display: block;
+   width: 90%;
+   margin: auto;
+   margin-top: 10%;
+   border-radius: 30px;
+   /* border: 2px solid blue; */
+}
+
+#kumar img:hover {
+   background-color: white;
+}
 
  /* #skill>div:nth-child(4)>img{
        padding-top: 40px;
@@ -175,44 +269,47 @@
        width:100%;
     }
     #skill>div:nth-child(5)>img{
-       padding-top: 30px;
+       padding-top: 30px;200px
        padding-bottom: 30px;
        width:100%;
     } */
- #hours {
+ /* #hours {
     width: 70%;
-    height: 550px;
+    height: 200px;
     margin: auto;
     border-radius: 20px;
     margin-bottom: 200px;
     margin-top: 70px;
     display: grid;
     border: 1px solid red;
- }
+    border: 2px solid blue;
+ } */
 
  /* #hours>div {
     width: 100%;
     border: 3px solid black;
     border-radius: 20px;
-    height: 300px;
+    height: 50px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid red;
     
- }
+ } */
 
- #hours>div:nth-child(2) {
+ /* #hours>div:nth-child(2) {
    margin-top: 40px;
- } 
+ }  */
 
- #hours img {
+ /* #hours>img {
     display: block;
     margin: auto;
     width: 100%;
-    height: 100%;
+    height: 50%;
     border-radius: 20px;
     border: none;
+  
  } */
 
- #softskills {
+ /* #softskills {
     width: 70%;
     height: 250px;
     margin: auto;
@@ -226,7 +323,7 @@
     width: 100%;
     height: 100%;
     border-radius: 20px;
- }
+ } */
 
  /* #github {
     width: 70%;
@@ -342,17 +439,21 @@
  } */
 
  .verma {
- 
-    padding: 20px;
+   /* border: 2px solid blue; */
+    padding: 10px;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
     border: 3px solid;
     height: 100%;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
  }
-
+.verma>h2{
+   margin-top: 10px;
+   margin-left: auto;
+}
  .verma>h4 {
     margin-top: 10px;
+    /* border: 2px solid blue; */
  }
 
  .verma>h3 {
@@ -360,7 +461,7 @@
  }
 
  .verma div {
-
+   
     display: flex;
     width: 100%;
     justify-content: space-evenly;
@@ -375,6 +476,7 @@
     font-weight: bold;
     background-color: black;
     color: white;
+    
  }
 
  .verma button:hover {
@@ -391,8 +493,17 @@
  #g {
     height: 40px;
     /* border: 1px solid green; */
-    margin-top: 100px;
+    margin-top: -300px;
  }
+
+ #z {
+   height: 40px;
+   /* border: 1px solid green; */
+   margin-top: -500px;
+}
+
+
+
 
  #contact {
     margin-top: 150px;
@@ -508,31 +619,53 @@
        background-color: black;
     }
 
-    #navbar {
+    /* #navbar {
        width: 100%;
-    }
+    } */
 
-    #navbar>div:nth-child(2) {
+/* 
+    #navbar {
+      border: 1px solid red;
+      background-color: black;
+      width: 100%;
+      height: 64px;
+      position: sticky;
+      top: 0px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      z-index: 10;
+   }
+   */
+
+
+
+    /* #navbar>div:nth-child(2) {
        display: none;
-    }
+    } */
+
+
+
+
 
     #image {
-    /* display: grid; */
+    display: grid;
     width:90%;
-    /* margin:auto; */
+    margin:auto;
     grid-template-columns: repeat(1,1fr);
     
     margin: 20px auto;
     }
 
     #image img {
-       width: 70%;
+       width: 30%;
        margin: auto;
+       /* border: 2px solid blue; */
 
     }
 
     #about {
-       margin-top: -150px;
+       /* margin-top: -150px; */
        padding: 20px;
     }
 
@@ -541,12 +674,27 @@
        margin-bottom: 80px;
     }
 
-    #skill {
+     #skill {
        grid-template-columns: repeat(3, 1fr);
        grid-template-rows: repeat(auto, 100px);
        gap: 80px;
        width: 80%;
     }
+
+#ayush{
+   grid-template-columns: repeat(3, 1fr);
+       grid-template-rows: repeat(auto, 100px);
+       gap: 80px;
+       width: 80%;
+}
+
+#kumar{
+       grid-template-columns: repeat(3, 1fr);
+       grid-template-rows: repeat(auto, 100px);
+       gap: 80px;
+       width: 80%;
+} 
+
 
     #hours {
        margin-top: 70px;
@@ -572,6 +720,7 @@
 
     #projects {
        width: 80%;
+       /* border: 2px solid blue; */
     }
 
     #projects>div {
@@ -582,11 +731,13 @@
     #projects>div:nth-child(2) {
        margin-top: 70%;
        margin-bottom: 40%;
+       /* border: 2px solid blue; */
     }
 
     #projects>div:last-child {
        margin-top: 30%;
        margin-bottom: 70%;
+       /* border: 2px solid blue; */
     }
     
 
@@ -625,6 +776,9 @@
 
  }
 
+ 
+
+
  @media all and (min-width:280px) and (max-width:600px) {
     #t {
        display: inline;
@@ -641,14 +795,34 @@
     #contact input {
        width: 250px;
     }
-
+/* 
     #navbar {
+      border: 1px solid red;
+      background-color: black;
+      width: 100%;
+      height: 64px;
+      position: sticky;
+      top: 0px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      z-index: 10;
+   } */
+
+
+
+
+
+
+
+
+     /* #navbar {
        width: 100%;
-    }
+    } */
 
     #navbar>div:nth-child(2) {
        display: none;
-    }
+    } 
 
     /* #image {
        position: relative;
@@ -704,19 +878,40 @@
 
     #skill {
        grid-template-columns: repeat(2, 1fr);
-       /* grid-template-rows: repeat(auto,100px) ; */
+       
        gap: 80px;
        width: 80%;
     }
 
     #skill>div {
-       height: 120px;
+       height: 150px;
     }
 
-    #skill img {
+    /* #skill img {
        margin-top: 20%;
        width: 80%;
-    }
+    } */
+
+#ayush{
+   grid-template-columns: repeat(2,1fr);
+   gap: 80px;
+       width: 80%;
+    
+}
+
+#ayush>div {
+   height: 150px;
+}
+
+#kumar{
+   grid-template-columns: repeat(2,1fr);
+   gap: 80px;
+       width: 80%;
+    
+}
+#kumar>div {
+   height: 150px;
+}
 
     #hours {
        margin-top: 100px;
@@ -751,6 +946,7 @@
 
     #projects {
        width: 90%;
+       /* border: 2px solid blue; */
     }
 
     #touch {
@@ -772,6 +968,7 @@
     #projects>div:nth-child(2) {
        margin-top: 80%;
        margin-bottom: 40%;
+       /* border: 2px solid blue; */
     
     }
 
@@ -821,6 +1018,91 @@
 
  }
 
+ @media all and (min-width:10px) and (max-width:279px){
+
+ 
+
+   #skill {
+      grid-template-columns: repeat(1, 1fr);
+      
+      gap: 80px;
+      width: 80%;
+   }
+
+   #skill>div {
+      height: 150px;
+   }
+
+   #ayush{
+      grid-template-columns: repeat(1,1fr);
+      gap: 80px;
+          width: 80%;
+       
+   }
+
+   #ayushl>div {
+      height: 150px;
+   }
+   
+   #kumar{
+      grid-template-columns: repeat(1,1fr);
+      gap: 80px;
+          width: 80%; 
+   } 
+
+   #kumar>div {
+      height: 150px;
+   }
+
+
+   #image {
+      display: grid;
+      width:90%;
+      margin:auto;
+      grid-template-columns: repeat(1,1fr);
+      
+      margin: 20px auto;
+      }
+  
+      #image img {
+         width: 30%;
+         margin: auto;
+         /* border: 2px solid blue; */
+  
+      }
+
+      #about {
+         margin-top: -20px;
+       
+      }
+  
+      #about>h1:first-child {
+         font-size: 35px;
+      }
+  
+      #about>h1:nth-child(2) {
+         font-size: 30px;
+      }
+  
+      #about>h1:nth-child(3) {
+         font-size: 30px;
+      }
+  
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
  /* .gitstack {
     margin: auto;
     width: 70%;
@@ -844,7 +1126,7 @@
     height: 100%;
 } */
 
-@media (max-width:991px){
+/* @media (max-width:991px){
     .gitstack {
         margin-top: 120px;
         margin-bottom: 60px;
@@ -855,4 +1137,9 @@
     #star {
         margin-top: 180px;
     }
-}
+} */
+
+/* <----------------newnavbar-----------------------------------> */
+
+
+
