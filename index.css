@@ -169,9 +169,6 @@ color: red;
       /* margin-right: 50px; */
    }
 
-
-
-
    .nav > .nav-btn > label {
      display: inline-block;
      width: 50px;
@@ -210,12 +207,6 @@ color: red;
      height: calc(60vh - 50px);
      overflow-y: auto;
    }
-
-
-
-
-
-
  }
 
 /* <--------------------------------------------------------------------------------------------------------------------------------------------------------> */
@@ -244,10 +235,6 @@ color: red;
 #b{
    margin-top: 20px;
 }
-
-
-
-
 
  #about>h1:first-child {
     /* margin-top: 40px; */
@@ -328,9 +315,6 @@ color: red;
  #skill img:hover {
     background-color: white;
  }
-
-
-
 
  #ayush{
    width: 70%;
