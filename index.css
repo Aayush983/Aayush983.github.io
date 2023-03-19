@@ -223,11 +223,7 @@ color: red;
  #image {
    /* border: 2px solid blue; */
    /* margin-top: 12rem; */
-<<<<<<< HEAD
-   padding-top: 3rem;
-=======
    padding-top: 4rem;
->>>>>>> cd824920dddbc2fe630e698a3190c3ea00c72220
 
     display: grid;
     width:95%;
