@@ -87,6 +87,7 @@ body {
    /* border: 2px solid red; */
    height: 65px;
   position: fixed  !important;
+  /* padding-right: 5rem; */
   /* overflow: hidden; */
   margin-bottom: 8rem;
   top: 0px;
@@ -119,6 +120,7 @@ body {
  .nav > .nav-links {
    display: inline;
    float: right;
+   padding-right: 5rem;
    font-size: 25px;
    font-weight: bold;
   
@@ -148,6 +150,8 @@ color: red;
    background-color: red;
    border-radius: 10px;
    padding: 4px;
+   padding-left: 0.5rem;
+   padding-right: 0.5rem;
    border: none;
    margin-right: 20px;
  }
@@ -215,10 +219,10 @@ color: red;
    /* border: 2px solid blue; */
    /* margin-top: 12rem; */
    padding-top: 3rem;
-
+   margin-left: 30%;
     display: grid;
     width:95%;
-    margin:auto;
+    /* margin:auto; */
     grid-template-columns: 1fr 2fr;
     gap: 30px;
     margin: 20px auto;
@@ -238,22 +242,25 @@ color: red;
 
  #about>h1:first-child {
     /* margin-top: 40px; */
-    font-size: 80px;
+    font-size: 60px;
     /* border: 2px solid red; */
     margin-bottom: -30px;
+    margin-left: 20%;
  }
 
  #about>h1:nth-child(2) {
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 20px;
+    margin-left: 20%;
     /* border: 2px solid red; */
  }
 
  #about>h1:nth-child(3) {
-    font-size: 50px;
+    font-size: 40px;
     color: red;
-    margin-top:-15px;
+    margin-top:15px;
     /* border: 2px solid blue; */
+    margin-left: 20%;
  }
 
  #image img {
@@ -261,6 +268,8 @@ color: red;
    border-radius: 30%;
    width: 80%;
    /* border: 2px solid blue; */
+   margin-left: 40%;
+   margin-top: 5%;
 }
 
 
@@ -586,15 +595,18 @@ color: red;
 .verma>h2{
    margin-top: 10px;
    margin-left: auto;
+   /* padding: 1rem; */
 }
  .verma>h4 {
-    margin-top: 10px;
+    margin-top: 5px;
     /* border: 2px solid blue; */
+    /* padding: 1rem; */
  }
 
  .verma>h3 {
-    margin-top: 15px;
+    margin-top: 10px;
     /* border: 2px solid blue; */
+    /* padding: 1rem; */
  }
 
  .verma div {
