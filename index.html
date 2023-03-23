@@ -99,7 +99,13 @@
         <a href="#skill" >Skills</a>
         <a href="#projects" >Project</a>
         <a href="#footer" >Contact</a>
-        <a id="bbb" href="./images/Aayush_Kumar_Resume.pdf" download>Resume</a>
+        <!-- <a onclick="resumeDownload()" id="bbb" href="./images/Aayush_Kumar_Resume.pdf" target="_blank" download>Resume</a> -->
+        <a id="bbb" onclick="resumeDownload()" href="./images/Aayush_Kumar_Resume.pdf" target="blank"  download="fw19_0380_Aayush_kumar_Resume.pdf"
+               
+                  
+                        > 
+                        Resume
+                    </a>
       </div>
     </div>
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------ -->
@@ -375,6 +381,8 @@
 
 
 
+
+
  
    const form = document.forms['submit-to-google-sheet']
 
@@ -391,6 +399,13 @@
          })
          .catch(error => console.error('Error!', error.message))
    })
+
+
+   
+   function resumeDownload(){
+   
+   window.open("./images/Aayush_Kumar_Resume.pdf","_blank");
+  }
 
 </script>
 
