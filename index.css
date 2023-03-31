@@ -237,7 +237,7 @@ color: red;
 }
 
 #b{
-   margin-top: 20px;
+   margin-top: 30px;
 }
 
  #about>h1:first-child {
@@ -493,7 +493,7 @@ color: red;
     margin: auto;
     margin-top: 170px;
     display: grid;
-    gap: 30px;
+    gap: 45px;
     
  }
 
@@ -584,7 +584,7 @@ color: red;
  } */
 
  .verma {
-   /* border: 2px solid blue; */
+   border: 2px solid blue;
     padding: 0px;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px;
